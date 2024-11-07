@@ -1,0 +1,79 @@
+<mvc:View
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    controllerName="com.app.capacitymanagement.controller.Home"
+    displayBlock="true"
+>
+    <App>
+        <pages>
+            <Page
+                showHeader="false"
+                class="sapUiContentPadding backgroundColour"
+            >
+                <content>
+                    <HBox
+                        width="100%"
+                        justifyContent="SpaceBetween"
+                        alignItems="Center"
+                    >
+                        <Image
+                            id="id_GenImage1PageHome"
+                            height="2.5rem"
+                            class="sapUiTinyMarginBegin"
+                            src="https://artihcus.com/assets/img/AG-logo.png"
+                        />
+
+                        <HBox class="sapUiTinyMarginEnd">
+                            <Button
+                                text="Login"
+                                type="Transparent"
+                                press="onLogin"
+                            />
+                            <Button
+                                text="Signup"
+                                type="Transparent"
+                                press="onSignup"
+                            />
+                        </HBox>
+                    </HBox>
+
+                    <HBox class="EntireHbox" justifyContent="SpaceBetween">
+                        
+                        <HBox class="textHbox">
+                        
+                                                <Text
+                            text="Hi"
+                            class="Hi"
+                        />
+                            <VBox>
+                                <Label width="20%" />
+                                <Text
+                                    text="Welcome to Effortless"
+                                    class="welcome"
+                                />
+                                <Text
+                                    text="Capacity"
+                                    class="capacityTitle"
+                                />
+                                <Text
+                                    text="Management"
+                                    class="capacityTitle"
+                                />
+                                
+                            </VBox>     
+                               
+                        </HBox>
+                        <HBox>
+                            <Image
+                                id="idImage"
+                                src="Image/truckWithGoods.gif"
+                            />
+                        </HBox>
+                    </HBox >
+                     <Text  width="40%" text="&quot;Let's create something amazing together.&quot;" class="quoteText"/> 
+                    <!-- <Text text="Together.&quot;" class="quoteText"/> -->
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>

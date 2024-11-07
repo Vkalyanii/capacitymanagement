@@ -1,0 +1,105 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns:form="sap.ui.layout.form"
+    xmlns="sap.m"
+>
+    <Dialog
+        id="idEditProductDialog"
+        resizable="true"
+        draggable="true"  
+        contentWidth="20%"
+        contentHeight="30%"
+        title="Edit Product"
+    >
+        <beginButton>
+            <Button
+                id="idCreatevgbhjkButton"
+                text="Save"
+                press="onSave"
+                type="Success"
+            />
+        </beginButton>
+        <endButton>
+            <Button
+                id="idCancelbnmButton"
+                text="Cancel"
+                press="onCancelInEditProductDialog"
+                type="Negative"
+            />
+        </endButton>
+        <content>
+            <form:SimpleForm
+                id="idStarDetanmilsForm"
+                editable="true"
+                layout="ResponsiveGridLayout"
+                labelSpanXL="3"
+                labelSpanL="3"
+                labelSpanM="3"
+                labelSpanS="12"
+                adjustLabelSpan="false"
+                emptySpanXL="4"
+                emptySpanL="4"
+                emptySpanM="4"
+                emptySpanS="0"
+                columnsXL="1"
+                columnsL="1"
+                columnsM="1"
+                singleContainerFullSize="false"
+            >
+                 <Label
+                    id="idIDLasdabel"
+                    text="product"
+                />
+                <Input
+                    id="idIDasdInput"
+                />
+                <Label
+                    id="idStarsdNameLabel"
+                    text="product description"
+                />
+                <Input
+                    id="idStarasdNameInput"
+                />
+                 <Label
+                    id="idStaasdrNamvbl"
+                    text="product Type"
+                />
+                <Input
+                    id="idStasdrNabnmeInput"
+                />
+                <Label
+                    id="idConsdstellationLabel"
+                    text="dimensions"
+                />
+                <Input
+                    id="idConsdstellationInput"
+                />
+                <Label
+                    id="idTysdpeLabel"
+                    text="Weight"
+                />
+                <Input
+                    id="idTasdypeInput"
+                />
+                <Label
+                    id="idDxcvbescriptionLabel"
+                    text="product Code"
+                />
+                <Input
+                    id="idDfghjescriptionInput"
+                />
+                <Label
+                    id="idDefghsfvgbcriptionLabel"
+                    text="Volume"
+                />
+                <Input
+                    id="idDcvbescrvbniptionInput"
+                />
+ 
+ 
+ 
+            </form:SimpleForm>
+        </content>
+    </Dialog>
+</core:FragmentDefinition>
+ 

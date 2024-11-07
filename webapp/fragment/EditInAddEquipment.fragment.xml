@@ -1,0 +1,99 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns:form="sap.ui.layout.form"
+    xmlns="sap.m"
+>
+    <Dialog
+        id="idEditInAddEquipmentDialog"
+        resizable="true"
+        draggable="true"  
+        contentWidth="20%"
+        contentHeight="30%"
+        title="Edit Vehicle"
+    >
+        <beginButton>
+            <Button
+                id="idCreatevgbhdfgjkButton"
+                text="Save"
+                press="onSave"
+                type="Success"
+            />
+        </beginButton>
+        <endButton>
+            <Button
+                id="idCancelbnmdfgButton"
+                text="Cancel"
+                press="onCancelInEditVehicleDialog"
+                type="Negative"
+            />
+        </endButton>
+        <content>
+            <form:SimpleForm
+                id="idStarDetanmidfglsForm"
+                editable="true"
+                layout="ResponsiveGridLayout"
+                labelSpanXL="3"
+                labelSpanL="3"
+                labelSpanM="3"
+                labelSpanS="12"
+                adjustLabelSpan="false"
+                emptySpanXL="4"
+                emptySpanL="4"
+                emptySpanM="4"
+                emptySpanS="0"
+                columnsXL="1"
+                columnsL="1"
+                columnsM="1"
+                singleContainerFullSize="false"
+            >
+               <Label
+                    id="idICVBDLnmabel"
+                    text="Vehicle"
+                />
+                <Input
+                    id="bnmVB"
+                />
+                <Label
+                    id="idStFGarnmNameLabel"
+                    text="vehicle Type"
+                />
+                <Input
+                    id="idStaFGrbnNameInput"
+                />
+              
+                <Label
+                    id="idConVBNbnmstellationLabel"
+                    text="dimensions"
+                />
+                <Input
+                    id="idConGHJbnmstellationInput"
+                />
+                <Label
+                    id="idTypFGHebnmLabel"
+                    text="Weight"
+                />
+                <Input
+                    id="GH"
+                />
+                <Label
+                    id="idDevbFGHnscriptionLabel"
+                    text="Volume"
+                />
+                <Input
+                    id="idDegVBNhjscriptionInput"
+                />
+                <Label
+                    id="idDesFGHvhfvgbcriptionLabel"
+                    text="Capacity"
+                />
+                <Input
+                    id="idDeFGscrvbnghjkiptionInput"
+                />
+ 
+ 
+ 
+            </form:SimpleForm>
+        </content>
+    </Dialog>
+</core:FragmentDefinition>
+ 
