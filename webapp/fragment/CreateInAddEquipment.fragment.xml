@@ -7,8 +7,8 @@
         id="idCreateInAddEquipmentDialog"
         resizable="true"
         draggable="true"  
-        contentWidth="20%"
-        contentHeight="30%"
+        contentWidth="45%"
+        contentHeight="35%"
         title="Create Vehicle"
     >
         <beginButton>
@@ -49,49 +49,46 @@
                
                  <Label
                     id="idIvCVBDLnmabel"
-                    text="Vehicle"
+                    text="Vehicle Type"
                 />
                 <Input
                     id="bnvbmVB"
                 />
                 <Label
-                    id="idStFGvbarnmNameLabel"
-                    text="vehicle Type"
-                />
-                <Input
-                    id="idStaFbnGrbnNameInput"
-                />
-                
-                <Label
                     id="idConbnmstellationLabel"
-                    text="dimensions"
+                    text="Length"
                 />
                 <Input
                     id="idConbnmstellationInput"
                 />
                 <Label
                     id="idTypebnmLabel"
-                    text="Weight"
+                    text="Height"
                 />
                 <Input
                     id="idTybnpeInput"
                 />
                 <Label
                     id="idDevbnscriptionLabel"
-                    text="Volume"
+                    text="Width"
                 />
                 <Input
                     id="idDeghjscriptionInput"
                 />
                 <Label
                     id="idDesvhfvgbcriptionLabel"
-                    text="Capacity"
+                    text="Volume"
                 />
                 <Input
                     id="idDescrvbnghjkiptionInput"
                 />
- 
- 
+                <Label
+                    id="idDesvhfvgbcripcedtionLabel"
+                    text="Capacity"
+                />
+                <Input
+                    id="idDescrvbnghjkiptioenInput"
+                />
             </form:SimpleForm>
         </content>
     </Dialog>
