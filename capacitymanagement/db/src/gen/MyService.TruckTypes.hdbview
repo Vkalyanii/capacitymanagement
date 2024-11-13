@@ -1,0 +1,10 @@
+VIEW MyService_TruckTypes AS SELECT
+  TruckTypes_0.truckType,
+  TruckTypes_0."LENGTH",
+  TruckTypes_0.width,
+  TruckTypes_0.height,
+  TruckTypes_0.uom,
+  TruckTypes_0.volume,
+  TruckTypes_0.truckWeight,
+  TruckTypes_0.capacity
+FROM capacitymanagement_db_TruckTypes AS TruckTypes_0

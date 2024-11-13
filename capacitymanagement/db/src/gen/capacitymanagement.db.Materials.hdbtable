@@ -1,0 +1,13 @@
+COLUMN TABLE capacitymanagement_db_Materials (
+  sapProductno NVARCHAR(40) NOT NULL,
+  "LENGTH" NVARCHAR(5000),
+  width NVARCHAR(5000),
+  height NVARCHAR(5000),
+  volume NVARCHAR(5000),
+  uom NVARCHAR(5000),
+  mCategory NVARCHAR(40),
+  description NVARCHAR(5000),
+  EANUPC NVARCHAR(5000),
+  weight NVARCHAR(5000),
+  PRIMARY KEY(sapProductno)
+)
