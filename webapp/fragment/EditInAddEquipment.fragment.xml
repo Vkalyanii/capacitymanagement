@@ -6,9 +6,9 @@
     <Dialog
         id="idEditInAddEquipmentDialog"
         resizable="true"
-        draggable="true"  
-        contentWidth="20%"
-        contentHeight="30%"
+        draggable="true"
+        contentWidth="40%"
+        contentHeight="35%"
         title="Edit Vehicle"
     >
         <beginButton>
@@ -29,7 +29,7 @@
         </endButton>
         <content>
             <form:SimpleForm
-                id="idStarDetanmidfglsForm"
+                id="idStabnrDetanmilsForm"
                 editable="true"
                 layout="ResponsiveGridLayout"
                 labelSpanXL="3"
@@ -46,54 +46,50 @@
                 columnsM="1"
                 singleContainerFullSize="false"
             >
-               <Label
-                    id="idICVBDLnmabel"
-                    text="Vehicle"
+               
+                 <Label
+                    id="idIvCsdsdVBDLnmabel"
+                    text="Vehicle Type"
                 />
                 <Input
-                    id="bnmVB"
+                    id="bnvbmVsdB"
                 />
                 <Label
-                    id="idStFGarnmNameLabel"
-                    text="vehicle Type"
+                    id="idConbnmstelldwadationLabel"
+                    text="Length"
                 />
                 <Input
-                    id="idStaFGrbnNameInput"
+                    id="idConbnmstsdellationInput"
                 />
-              
                 <Label
-                    id="idConVBNbnmstellationLabel"
-                    text="dimensions"
+                    id="idTypebsnmLabel"
+                    text="Height"
                 />
                 <Input
-                    id="idConGHJbnmstellationInput"
+                    id="idTybnpdseInput"
                 />
                 <Label
-                    id="idTypFGHebnmLabel"
-                    text="Weight"
+                    id="idDevbnscrsdiptionLabel"
+                    text="Width"
                 />
                 <Input
-                    id="GH"
+                    id="idDeghjscriptisdonInput"
                 />
                 <Label
-                    id="idDevbFGHnscriptionLabel"
+                    id="idDesvhfvgbcrsdiptionLabel"
                     text="Volume"
                 />
                 <Input
-                    id="idDegVBNhjscriptionInput"
+                    id="idDescrvbnghjkiptiownInput"
                 />
                 <Label
-                    id="idDesFGHvhfvgbcriptionLabel"
+                    id="idDesvhfvgbcripcedtwionLabel"
                     text="Capacity"
                 />
                 <Input
-                    id="idDeFGscrvbnghjkiptionInput"
+                    id="idDescrvbnghjkiptafdioenInput"
                 />
- 
- 
- 
             </form:SimpleForm>
         </content>
     </Dialog>
 </core:FragmentDefinition>
- 
