@@ -1,0 +1,12 @@
+VIEW MyService_Materials AS SELECT
+  Materials_0.sapProductno,
+  Materials_0."LENGTH",
+  Materials_0.width,
+  Materials_0.height,
+  Materials_0.volume,
+  Materials_0.uom,
+  Materials_0.mCategory,
+  Materials_0.description,
+  Materials_0.EANUPC,
+  Materials_0.weight
+FROM capacitymanagement_db_Materials AS Materials_0

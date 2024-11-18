@@ -1,0 +1,11 @@
+COLUMN TABLE capacitymanagement_db_TruckTypes (
+  truckType NVARCHAR(40) NOT NULL,
+  "LENGTH" NVARCHAR(5000),
+  width NVARCHAR(5000),
+  height NVARCHAR(5000),
+  uom NVARCHAR(5000),
+  volume NVARCHAR(5000),
+  truckWeight NVARCHAR(5000),
+  capacity NVARCHAR(5000),
+  PRIMARY KEY(truckType)
+)
