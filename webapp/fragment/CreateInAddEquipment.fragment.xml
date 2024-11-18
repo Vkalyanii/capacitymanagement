@@ -29,7 +29,7 @@
         </endButton>
         <content>
             <form:SimpleForm
-                id="idStabnrDetanmilsForm"
+                id="idStabnrDetanmildfgsForm"
                 editable="true"
                 layout="ResponsiveGridLayout"
                 labelSpanXL="3"

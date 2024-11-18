@@ -19,7 +19,7 @@
     displayBlock="true"
     xmlns:tnt="sap.tnt"
 >
-    <Page
+    <Page id="_IDGenPage1"
         showHeader="false"
         class="PageBackground"
     >
@@ -42,7 +42,7 @@
                 id="parkinglotallotment"
             >
                 <layoutData>
-                    <OverflowToolbarLayoutData priority="Disappear" />
+                    <OverflowToolbarLayoutData id="_IDGenOverflowToolbarLayoutData" priority="Disappear" />
                 </layoutData>
             </Title>
 
@@ -52,15 +52,15 @@
                 id="secondTitle"
             >
                 <layoutData>
-                    <OverflowToolbarLayoutData priority="Disappear" />
+                    <OverflowToolbarLayoutData id="_IDGenOverflowToolbarLayoutData1" priority="Disappear" />
                 </layoutData>
             </Text>
 
-            <ToolbarSpacer width="1.125rem" />
+            <ToolbarSpacer id="_IDGenToolbarSpacer" width="1.125rem" />
 
             <ToolbarSpacer id="spacer">
                 <layoutData>
-                    <OverflowToolbarLayoutData
+                    <OverflowToolbarLayoutData id="_IDGenOverflowToolbarLayoutData2"
                         priority="NeverOverflow"
                         minWidth="20px"
                     />
@@ -83,7 +83,7 @@
                     />
                 </customData>
                 <layoutData>
-                    <OverflowToolbarLayoutData priority="NeverOverflow" />
+                    <OverflowToolbarLayoutData id="_IDGenOverflowToolbarLayoutData3" priority="NeverOverflow" />
                 </layoutData>
             </Button>
             <Button
@@ -94,17 +94,17 @@
                 ariaHasPopup="Menu"
             >
                 <layoutData>
-                    <OverflowToolbarLayoutData priority="NeverOverflow" />
+                    <OverflowToolbarLayoutData id="_IDGenOverflowToolbarLayoutData4" priority="NeverOverflow" />
                 </layoutData>
             </Button>
-            <Avatar
+            <Avatar id="_IDGenAvatar"
                 src="test-resources/sap/tnt/images/Woman_avatar_01.png"
                 displaySize="XS"
                 press="onAvatarPressed"
                 tooltip="Profile"
             >
                 <layoutData>
-                    <OverflowToolbarLayoutData priority="NeverOverflow" />
+                    <OverflowToolbarLayoutData id="_IDGenOverflowToolbarLayoutData5" priority="NeverOverflow" />
                 </layoutData>
             </Avatar>
         </tnt:ToolHeader>
@@ -124,16 +124,16 @@
                         text="Simulate"
                         class="iconTabBar"
                     >
-                        <VBox class="overlayContainer">
+                        <VBox id="_IDGenVBox" class="overlayContainer">
                             <!-- Background Image -->
-                            <Image
+                            <Image id="_IDGenImage"
                                 src="Image/truckInSimulate.png"
                                 height="500px"
                                 width="1600px"
                             />
 
                             <!-- Overlay content (Label + Input + Centered Image) -->
-                            <VBox class="overlayContent">
+                            <VBox id="_IDGenVBox1" class="overlayContent">
                                 <HBox id="idhboxDebnscription">
                                     <Label
                                         id="idLableDvbnmescription_InitialView"
@@ -154,7 +154,7 @@
             }"
                                         valueHelpRequest="handleValueHelpProductType"
                                     >
-                                        <core:Item
+                                        <core:Item id="_IDGenItem"
                                             key="fghjk"
                                             text="fghj"
                                         />
@@ -179,7 +179,7 @@
             }"
                                         valueHelpRequest="handleValueHelp"
                                     >
-                                        <core:Item
+                                        <core:Item id="_IDGenItem1"
                                             key="fghjk"
                                             text="fghj"
                                         />
@@ -208,7 +208,7 @@
                                         width="100px"
                                     />
                                 </HBox>
-                                <VBox
+                                <VBox id="_IDGenVBox2"
                                     alignContent="Center"
                                     alignItems="Center"
                                 >
@@ -235,7 +235,7 @@
                             </VBox>
 
                             <!-- Centered Image (Additional Overlay Image) -->
-                            <Image
+                            <Image id="_IDGenImage1"
                                 src="Image/ManyProducts.png"
                                 class="centeredOverlayImage"
                             />
@@ -260,15 +260,15 @@
                             growingScrollToLoad="true"
                         >
                             <headerToolbar>
-                                <OverflowToolbar>
+                                <OverflowToolbar id="_IDGenOverflowToolbar">
                                     <Title
                                         id="Titlesd1455896_AHUOBQ"
                                         text="Products Table"
                                     />
-                                    <ToolbarSpacer />
+                                    <ToolbarSpacer id="_IDGenToolbarSpacer1" />
 
                                     <layoutData>
-                                        <OverflowToolbarLayoutData
+                                        <OverflowToolbarLayoutData id="_IDGenOverflowToolbarLayoutData6"
                                             priority="NeverOverflow"
                                         />
                                     </layoutData>
@@ -434,7 +434,7 @@
                         iconColor="Positive"
                         text="Add product"
                     >
-                        <HBox>
+                        <HBox id="_IDGenHBox">
                             <VBox
                                 class="vboxAdd"
                                 id="idConfigSapSysVbox_InitialView"
@@ -594,78 +594,78 @@
                                 </HBox>
                             </VBox>
                             <!-- sample -->
-                            <HBox width="20%">
-                                <Label width="20%" />
+                            <HBox id="_IDGenHBox1" width="20%">
+                                <Label id="_IDGenLabel" width="20%" />
                             </HBox>
                             <!-- real -->
-                            <HBox width="5%">
-                                <VBox>
-                                    <Label
+                            <HBox id="_IDGenHBox2" width="5%">
+                                <VBox id="_IDGenVBox3">
+                                    <Label id="_IDGenLabel1"
                                         text="Product"
                                         class="ProductTextInAddProduct"
                                     />
-                                    <Image src="Image/sampleProduct1.png" />
-                                    <Label text="" />
-                                    <Image src="Image/prodsamp.png" />
-                                    <Text text="EWMS4-06" />
+                                    <Image id="_IDGenImage2" src="Image/sampleProduct1.png" />
+                                    <Label id="_IDGenLabel2" text="" />
+                                    <Image id="_IDGenImage3" src="Image/prodsamp.png" />
+                                    <Text id="_IDGenText" text="EWMS4-06" />
                                 </VBox>
                             </HBox>
                             <!-- 22 -->
-                            <HBox width="8%">
-                                <VBox>
-                                    <Label
+                            <HBox id="_IDGenHBox3" width="8%">
+                                <VBox id="_IDGenVBox4">
+                                    <Label id="_IDGenLabel3"
                                         text="Product Code"
                                         class="ProductTextInAddProduct"
                                     />
-                                    <Text
+                                    <Text id="_IDGenText1"
                                         text="9783836214230"
                                         class="sapUiSmallMarginTop"
                                     />
-                                    <Label />
-                                    <Label />
-                                    <Label />
-                                    <Text
+                                    <Label id="_IDGenLabel4" />
+                                    <Label id="_IDGenLabel5" />
+                                    <Label id="_IDGenLabel6" />
+                                    <Text id="_IDGenText2"
                                         text="8888888830"
                                         class="sapUiSmallMarginTop"
                                     />
                                 </VBox>
                             </HBox>
                             <!-- 33 -->
-                            <HBox width="7%">
-                                <VBox>
-                                    <Label
+                            <HBox id="_IDGenHBox4" width="7%">
+                                <VBox id="_IDGenVBox5">
+                                    <Label id="_IDGenLabel7"
                                         text="Dimensions"
                                         class="ProductTextInAddProduct"
                                     />
-                                    <Text
+                                    <Text id="_IDGenText3"
                                         text="2Lx2Hx2B"
                                         class="sapUiSmallMarginTop"
                                     />
-                                    <Label />
-                                    <Label />
-                                    <Label />
-                                    <Text
+                                    <Label id="_IDGenLabel8" />
+                                    <Label id="_IDGenLabel9" />
+                                    <Label id="_IDGenLabel10" />
+                                    <Text id="_IDGenText4"
                                         text="3Lx4Hx3B"
                                         class="sapUiSmallMarginTop"
                                     />
                                 </VBox>
                             </HBox>
                             <!-- 44 -->
-                            <HBox width="5%">
-                                <VBox>
-                                    <Label
+                            <HBox id="_IDGenHBox5" width="5%">
+                                <VBox id="_IDGenVBox6">
+                                    <Label id="_IDGenLabel11"
                                         text="Weights"
                                         class="ProductTextInAddProduct"
                                     />
-                                    <Text
+                                    <Text id="_IDGenText5"
                                         text="5kg"
                                         class="sapUiSmallMarginTop"
                                     />
-                                    <Label />
-                                    <Label />
-                                    <Label />
-                                    <Label />
-                                    <Text
+                                    <Label id="_IDGenLabel12" />
+                                    <Label id="_IDGenLabel13" />
+                                    <Label id="_IDGenLabel14" />
+                                    <Label id="_IDGenLabel15" />
+                                    <Text id="_IDGenText6"
                                         text="10kg"
                                         class="sapUSmallMarginTop"
                                     />
@@ -731,12 +731,16 @@
                                 tooltip="Print"
                                 class="line-md--download-outline-loop"
                             />
-                            <Button
-                                id="idBtdfghfghjfghjkghnHUContentBtn_AHUOBQ"
-                                text="Upload"
-                                press="onPressUploadInAddVehicleTable"
-                                tooltip="Upload"
+                            <unified:FileUploader
+                                id="FileUploaderId"
+                                sameFilenameAllowed="true"
+                                iconOnly="false"
+                                buttonOnly="false"
+                                fileType="XLSX,xlsx"
                                 icon="sap-icon://upload"
+                                iconFirst="true"
+                                change="onUpload"
+                                buttonText="Upload"
                             />
                         </Toolbar>
                         <Table
